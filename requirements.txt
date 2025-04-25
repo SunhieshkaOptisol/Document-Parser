@@ -12,3 +12,4 @@ langchain_aws
 llama-parse
 azure-cognitiveservices-vision-computervision
 azure-storage-blob
+pdf2image
