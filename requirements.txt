@@ -1,0 +1,10 @@
+streamlit
+azure-core
+azure-ai-documentintelligence
+python-dotenv
+langchain-openai
+langchain-community
+langchain
+openai
+langchain-experimental
+psycopg2-binary
