@@ -11,3 +11,4 @@ psycopg2-binary
 langchain_aws
 llama-parse
 azure-cognitiveservices-vision-computervision
+azure-storage-blob
