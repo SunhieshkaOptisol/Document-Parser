@@ -10,4 +10,4 @@ langchain-experimental
 psycopg2-binary
 langchain_aws
 llama-parse
-azure.cognitiveservices
+azure-cognitiveservices-vision-computervision
