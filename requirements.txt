@@ -8,3 +8,4 @@ langchain
 openai
 langchain-experimental
 psycopg2-binary
+langchain_aws
