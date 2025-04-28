@@ -13,7 +13,7 @@ from azure.ai.documentintelligence import DocumentIntelligenceClient
 load_dotenv()
 logger = setup_logger()
 
-st.set_page_config(page_title="Document Processing Tool", page_icon="📄", layout="wide")
+st.set_page_config(page_title="Document Intelligence", page_icon="📄", layout="wide")
 
 # Initialize session state variables if they don't exist
 if 'invoice_content' not in st.session_state:
@@ -748,9 +748,9 @@ def main():
         """
         This application provides three tools:
         
-        - **Invoice Parser**: Process individual invoices and extract key information
-        - **Invoice-PO Comparison**: Compare invoices against purchase orders to identify discrepancies
-        - **Document Parser (AU)**: Extract structured information from invoices, timesheets, combined documents or multiple documents 
+        - **Invoice Parser**: Process individual and multilingual invoices to extract key information.
+        - **Invoice-PO Comparison**: Compare invoices against purchase orders to identify discrepancies.
+        - **Document Parser (AU)**: Extract structured information from invoices, timesheets, combined documents or multiple documents.
         """
     )
     
