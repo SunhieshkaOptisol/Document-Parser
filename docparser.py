@@ -736,7 +736,7 @@ def main():
     Main Streamlit application with app selector
     """
     # Create a sidebar with app selection
-    st.sidebar.title("Document Processing Tools")
+    st.sidebar.title("Document Intelligence")
     app_mode = st.sidebar.selectbox(
         "Choose Application Mode",
         ["Invoice Parser", "Invoice-PO Comparison", "Document Parser (AU)"]
